@@ -1,0 +1,130 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+img { border: 0; }
+
+body {
+  font-family: san-serif;
+  font-size: 12px;
+  color: #000;
+  background: #fff;
+}
+
+#head {
+  width: 100%;
+  height: auto;
+  background: url("lesson4_img/bg.png");
+  background-repeat: repeat;
+}
+
+#container {
+  width: 960px;
+  height: auto;
+  margin: 30px auto;
+}
+#mainVisual {
+  width: 960px;
+  height: 354px;
+  padding-top: 15px;
+}
+
+#navigation {
+  width: 960px;
+  height: 70px;
+  margin-top: 15px;
+
+  #logo {
+  width: 230px;
+  height: 70px;
+  float: left;
+  }
+
+  ul#gNavi {
+  width: 730px;
+  height: 70px;
+  float: right;
+  
+    li {
+    width: 120px;
+    text-align: center;
+    font-family: serif;
+    font-size: 14px;
+    color: #5e5e5e;
+    list-style: none;
+    float: right;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #5e5e5e;
+
+  :hover {
+  border-bottom: solid 5px #ffa4b1;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+#left {
+  width: 250px;
+  height: auto;
+  float: left;
+  margin-top: 15px;
+
+  #form {
+    width: 230px;
+    height: 160px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  p.form {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
+
+#center {
+  width: 400px;
+  height: auto;
+  float: left;
+  margin: 15px 30px;
+
+  #news {
+    width: 400px;
+    height: auto;
+    p.newsText {
+      font-size: 12px;
+      border-bottom: 1px dashed #000;
+      padding: 10px 0;
+    }
+  }
+}
+
+#right {
+  width: 250px;
+  height: auto;
+  float: left;
+  margin-top: 15px;
+}
+
+footer {
+  width: 960px;
+  height: 50px;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+}
+#btnSearch {
+  width: 229px;
+  height: 34px;
+  padding-top: 5px;
+  text-align: center;
+  color: #fff;
+}
